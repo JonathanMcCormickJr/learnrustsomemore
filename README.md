@@ -11,3 +11,7 @@ By Jonathan McCormick, Jr.
 ## 2024-11-02
 Rust's compiler is your friend. 
 
+### Some external crates that are interesting: 
+`diesel`: ORM and query builder for PostgreSQL, SQLite, and MySQL. 
+`rand`: Random number generator. 
+`tokio`: an event-driven, non-blocking I/O platform for writing asynchronous applications. 
