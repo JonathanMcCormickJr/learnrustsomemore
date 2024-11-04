@@ -79,3 +79,7 @@ help: consider cloning the value if the performance cost is acceptable
 For more information about this error, try `rustc --explain E0382`.
 error: could not compile `learnrustsomemore` (bin "learnrustsomemore") due to 1 previous error
 ```
+
+## 2024-11-03
+Whew knew working with strings could be this complicated? Lol. 
+
