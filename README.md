@@ -81,5 +81,19 @@ error: could not compile `learnrustsomemore` (bin "learnrustsomemore") due to 1 
 ```
 
 ## 2024-11-03
-Whew knew working with strings could be this complicated? Lol. 
+Who knew working with strings could be this complicated? Lol. 
+
+## 2024-11-17
+
+[This code has way too many comments and is presented regardless.]
+``` rust 
+fn main() {                     // Start of the main function. 
+    let mut x = vec![1, 2, 3];  // Declare a mutable vector of i32 values.
+    for mut num in &mut x {     // Create a for loop which borrows a mutable
+                                // reference to our vector x. 
+        *num += 1;              // For each dereferenced item in x, increment it by 1. 
+    }                           // Ending of our for loop's scope. 
+    println!("{:?}", x);        // Print our results. 
+}                               // Ending of the main function. 
+```
 
