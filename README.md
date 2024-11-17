@@ -80,6 +80,8 @@ For more information about this error, try `rustc --explain E0382`.
 error: could not compile `learnrustsomemore` (bin "learnrustsomemore") due to 1 previous error
 ```
 
+[Update from 2024-11-17: This is due to the first example of `let var_x = "My string";` having a value of `&str`, which is Copy. The second example uses the `.to_string()` method, resulting in a value of the owned type `String`, which is not Copy.]
+
 ## 2024-11-03
 Who knew working with strings could be this complicated? Lol. 
 
