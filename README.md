@@ -91,7 +91,7 @@ Who knew working with strings could be this complicated? Lol.
 ``` rust 
 fn main() {                     // Start of the main function. 
     let mut x = vec![1, 2, 3];  // Declare a mutable vector of i32 values.
-    for mut num in &mut x {     // Create a for loop which borrows a mutable
+    for num in &mut x {     // Create a for loop which borrows a mutable
                                 // reference to our vector x. 
         *num += 1;              // For each dereferenced item in x, increment it by 1. 
     }                           // Ending of our for loop's scope. 
